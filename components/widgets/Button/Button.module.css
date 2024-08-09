@@ -1,0 +1,58 @@
+.root {
+  @apply inline-flex cursor-pointer items-center justify-center px-2.5 text-center font-semibold tracking-[0.00438rem];
+  clip-path: polygon(8% 0, 100% 0, 100% 70%, 93% 100%, 0 100%, 0% 60%, 0 33%);
+  transition:
+    0.1s clip-path ease-in,
+    0.2s filter ease-in,
+    0.2s box-shadow ease-in,
+    0.2s font-weight ease-in;
+}
+
+.root:hover {
+  background-color: rgb(35, 250, 75, 0.9);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 100%, 0 100%, 0% 60%, 0 0);
+  -webkit-transition:
+    background-color 150ms ease-out,
+    clip-path 75ms ease-out;
+  -ms-transition:
+    background-color 150ms ease-out,
+    clip-path 75ms ease-out;
+  -moz-transition:
+    background-color 150ms ease-out,
+    clip-path 75ms ease-out;
+  -o-transition:
+    background-color 150ms ease-out,
+    clip-path 75ms ease-out;
+  transition:
+    background-color 150ms ease-out,
+    clip-path 75ms ease-out;
+}
+/********** SIZE **********/
+
+.root[data-size="small"] {
+  @apply h-8  text-sm;
+}
+
+.root[data-size="default"] {
+  @apply h-12  pt-[1px] text-[0.9375rem];
+}
+
+/********** SURFACE **********/
+
+.root[data-shape="surface"] {
+  @apply border border-[#141716] bg-[#141716] text-[#23FA4B];
+}
+
+.root[data-shape="surface"]:hover {
+  @apply bg-[#141716];
+}
+
+/********** FILLED **********/
+
+.root[data-shape="filled"] {
+  @apply border border-[#23FA4B] bg-[#23FA4B] text-[#141716];
+}
+
+.root[data-shape="filled"]:hover {
+  @apply bg-[#23FA4B];
+}

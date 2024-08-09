@@ -1,0 +1,7 @@
+.lottie_container > div {
+  width: 40px !important;
+  height: 40px !important;
+}
+.lottie_container > div > svg {
+  width: 40px !important;
+}
