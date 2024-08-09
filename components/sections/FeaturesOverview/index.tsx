@@ -60,12 +60,16 @@ const FeaturesOverview = ({ data }: { data: TDictionary }) => {
             className="rounded-full border border-[#022C22] bg-gradient-to-t from-[#022c2299] to-[#022c2200] text-[#10B981]"
           />
         </div>
-        <h2 className="font-orbitron mx-auto max-w-[44rem] text-2xl font-semibold tracking-[0.00625rem] text-[#ECEEED] lg:text-5xl lg:tracking-[0.015rem]">
-          <span>{data.featuresSection.heading[0]}</span>
-          <span className="text-[#23FA4B]">
+        <h2 className=" mx-auto max-w-[44rem] text-2xl font-semibold tracking-[0.00625rem] text-[#ECEEED] lg:text-5xl lg:tracking-[0.015rem]">
+          <span className="font-orbitron">
+            {data.featuresSection.heading[0]}
+          </span>
+          <span className="font-orbitron text-[#23FA4B]">
             {data.featuresSection.heading[1]}
           </span>
-          <span>{data.featuresSection.heading[2]}</span>
+          <span className="font-orbitron">
+            {data.featuresSection.heading[2]}
+          </span>
         </h2>
         <p className="mx-auto max-w-[35rem] text-sm font-medium tracking-[0.00438rem] text-[#D1D5DB] lg:text-base lg:tracking-[0.005rem]">
           {data.featuresSection.subheading}

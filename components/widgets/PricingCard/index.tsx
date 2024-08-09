@@ -36,7 +36,7 @@ const PricingCard: React.FC<PricingCardProps> = ({
         </div>
       )}
       <div className="flex flex-col gap-3 border-b border-[#1F2937] pb-8 text-left">
-        <h4 className="font-semibold tracking-[0.005rem] text-[#23FA4B]">
+        <h4 className="font-orbitron font-semibold tracking-[0.005rem] text-[#23FA4B]">
           {title}
         </h4>
         <p className="text-3xl font-semibold tracking-[0.00938rem] text-[#CFFAFE]">

@@ -47,12 +47,16 @@ const BenefitsShowcase = ({ data }: { data: TDictionary }) => {
           variants={item}
         >
           <h2 className="text-xl font-semibold tracking-[0.015rem] text-[#ECEEED] lg:text-5xl">
-            <span>{data.benefitsSection.heading[0]}</span>
-            <span className="text-[#23FA4B]">
+            <span className="font-orbitron">
+              {data.benefitsSection.heading[0]}
+            </span>
+            <span className="font-orbitron text-[#23FA4B]">
               {" "}
               {data.benefitsSection.heading[1]}{" "}
             </span>
-            <span>{data.benefitsSection.heading[2]}</span>
+            <span className="font-orbitron">
+              {data.benefitsSection.heading[2]}
+            </span>
           </h2>
           <p className="font-notoSans text-sm tracking-[0.005rem] text-[#D1D5DB] lg:text-base">
             {data.benefitsSection.subheading}

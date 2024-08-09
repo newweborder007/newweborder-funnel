@@ -8,6 +8,9 @@ import { useRouter } from "next/navigation";
 import { RiMenuFill, RiCloseLine } from "react-icons/ri";
 // import Link from 'next/link';
 import { TDictionary } from "@/app/[[...lang]]/dictionaries";
+import Link from "next/link";
+import Image from "next/image";
+import { motion } from "framer-motion";
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
@@ -42,11 +45,43 @@ const Navbar = ({ data }: { data: TDictionary }) => {
                     )}
                   </Disclosure.Button>
                 </div>
-                <div
+                {/* <div
                   onClick={() => router.push("/")}
                   className="flex flex-1 cursor-pointer items-center"
                 >
                   <Logo className="h-[1.21406rem] w-[6.5625rem]" />
+                </div> */}
+                <div className="header-logo">
+                  <Link
+                    href="/"
+                    style={{ display: "flex", minWidth: "fit-content" }}
+                  >
+                    <div className="relative inline-block">
+                      <Image
+                        width="0"
+                        height="0"
+                        sizes="100vw"
+                        style={{
+                          minWidth: "221px",
+                          width: "221px",
+                          height: "27px",
+                        }}
+                        src="/nwo-logo.svg"
+                        alt="New Web Order"
+                      />
+                      <motion.div
+                        animate={{ backgroundColor: ["#141716", "#23FA4B"] }}
+                        transition={{
+                          duration: 0.9,
+                          repeat: Infinity,
+                          repeatType: "reverse",
+                        }}
+                        className="absolute inset-y-3 bottom-0 top-6 -right-5 flex w-[8%] items-center justify-center"
+                      >
+                        <div className="h-full w-full bg-opacity-50"></div>
+                      </motion.div>
+                    </div>
+                  </Link>
                 </div>
                 <div className="ml-6 hidden flex-auto lg:ml-0 lg:block">
                   <div className="flex items-center justify-center gap-4 ">
@@ -54,7 +89,7 @@ const Navbar = ({ data }: { data: TDictionary }) => {
                       <a key={item.name} href={item.href}>
                         <span
                           className={classNames(
-                            "transition-duration: 150ms font-orbitron rounded-xl px-3 py-2 text-sm tracking-[0.00438rem]	transition-all hover:bg-green-950/40 hover:text-[#23FA4B]",
+                            "transition-duration: 150ms rounded-xl px-3 py-2 font-orbitron text-sm tracking-[0.00438rem]	transition-all hover:bg-green-950/40 hover:text-[#23FA4B]",
                             item.name
                               ? "text-[#ECEEED]"
                               : "text-[#23FA4B] underline",

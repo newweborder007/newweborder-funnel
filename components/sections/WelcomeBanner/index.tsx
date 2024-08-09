@@ -55,8 +55,10 @@ const WelcomeBanner = ({ data }: { data: TDictionary }) => {
             variants={item}
           >
             <h1 className=" font-orbitron text-2xl font-semibold !leading-tight tracking-[0.0075rem] text-[#ECEEED] lg:text-5xl lg:tracking-[0.015rem]">
-              <span className="">{data.heroSection.heading[0]}</span>
-              <span className=" text-[#23FA4B] ">
+              <span className="font-orbitron">
+                {data.heroSection.heading[0]}
+              </span>
+              <span className=" font-orbitron text-[#23FA4B]">
                 {" "}
                 {data.heroSection.heading[1]}{" "}
               </span>

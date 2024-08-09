@@ -1,5 +1,5 @@
 .root {
-  @apply inline-flex cursor-pointer items-center justify-center px-2.5 text-center font-semibold tracking-[0.00438rem];
+  @apply inline-flex cursor-pointer items-center justify-center px-2.5 text-center font-orbitron font-semibold tracking-[0.00438rem];
   clip-path: polygon(8% 0, 100% 0, 100% 70%, 93% 100%, 0 100%, 0% 60%, 0 33%);
   transition:
     0.1s clip-path ease-in,

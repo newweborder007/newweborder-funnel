@@ -40,7 +40,7 @@ const PriceBreakdown = ({ data }: { data: TDictionary }) => {
         id="pricing"
       >
         <motion.div
-          className="font-orbitron mx-auto flex max-w-[48rem] flex-col gap-3 lg:gap-4"
+          className="mx-auto flex max-w-[48rem] flex-col gap-3 font-orbitron lg:gap-4"
           variants={item}
         >
           <motion.div className="flex w-full justify-center">
@@ -49,14 +49,16 @@ const PriceBreakdown = ({ data }: { data: TDictionary }) => {
               className="rounded-full border border-[#451A03] bg-gradient-to-t from-[#451a0300] to-[#451a0399] text-[#F59E0B]"
             />
           </motion.div>
-          <motion.h2 className="font-orbitron text-xl font-semibold tracking-[0.00625rem] text-[#ECEEED] lg:text-5xl lg:tracking-[0.015rem]">
-            <span>{data.pricingSection.heading[0]}</span>
-            <span className="text-[#23FA4B]">
+          <motion.h2 className=" text-xl font-semibold tracking-[0.00625rem] text-[#ECEEED] lg:text-5xl lg:tracking-[0.015rem]">
+            <span className="font-orbitron">
+              {data.pricingSection.heading[0]}
+            </span>
+            <span className="font-orbitron text-[#23FA4B]">
               {" "}
               {data.pricingSection.heading[1]}{" "}
             </span>
           </motion.h2>
-          <motion.p className="text-sm tracking-[0.00438rem] text-[#D1D5DB] lg:text-base lg:tracking-[0.005rem] font-notoSans">
+          <motion.p className="font-notoSans text-sm tracking-[0.00438rem] text-[#D1D5DB] lg:text-base lg:tracking-[0.005rem]">
             {data.pricingSection.subheading}
           </motion.p>
         </motion.div>
