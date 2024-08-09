@@ -37,7 +37,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
       >
         {title}
       </h1>
-      <p className="cursor-default text-sm tracking-[0.00438rem] text-[#D1D5DB]">
+      <p className="cursor-default font-notoSans text-sm tracking-[0.00438rem] text-[#d1dbd2]">
         {description}
       </p>
     </div>

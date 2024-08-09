@@ -78,10 +78,10 @@ const ServiceWalkthrough = ({ data }: { data: TDictionary }) => {
             <motion.span className="text-md bg-gradient-to-r from-[#23FA4B] to-[#1af642] bg-clip-text font-semibold tracking-[0.00438rem] text-transparent">
               {data.howItWorksSection.highlight}
             </motion.span>
-            <motion.h2 className="text-xl font-bold tracking-[0.01125rem] text-[#ECEEED] lg:text-4xl font-orbitron">
+            <motion.h2 className="font-orbitron text-xl font-bold tracking-[0.01125rem] text-[#ECEEED] lg:text-4xl">
               {data.howItWorksSection.heading}
             </motion.h2>
-            <motion.p className="text-sm font-medium tracking-[0.00438rem] text-[#D1D5DB] lg:text-base lg:tracking-[0.007rem]">
+            <motion.p className="text-sm font-medium tracking-[0.00438rem] text-[#D1D5DB] lg:text-base lg:tracking-[0.007rem] font-notoSans">
               {data.howItWorksSection.description}
             </motion.p>
           </div>

@@ -41,7 +41,7 @@ const BenefitCard: React.FC<BenefitCardProps> = ({
         <h4 className="text-base font-bold tracking-[0.005rem] text-[#ECEEED] lg:text-xl lg:tracking-[0.00625rem]">
           {title}
         </h4>
-        <p className="text-sm tracking-[0.00438rem] text-[#D1D5DB] lg:text-base lg:tracking-[0.005rem]">
+        <p className="font-notoSans text-sm tracking-[0.00438rem] text-[#D1D5DB] lg:text-base lg:tracking-[0.005rem]">
           {description}
         </p>
       </div>

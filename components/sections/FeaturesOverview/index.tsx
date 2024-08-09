@@ -71,7 +71,7 @@ const FeaturesOverview = ({ data }: { data: TDictionary }) => {
             {data.featuresSection.heading[2]}
           </span>
         </h2>
-        <p className="mx-auto max-w-[35rem] text-sm font-medium tracking-[0.00438rem] text-[#D1D5DB] lg:text-base lg:tracking-[0.005rem]">
+        <p className="mx-auto max-w-[35rem] font-notoSans text-sm font-medium tracking-[0.00438rem] text-[#D1D5DB] lg:text-base lg:tracking-[0.005rem]">
           {data.featuresSection.subheading}
         </p>
       </motion.div>

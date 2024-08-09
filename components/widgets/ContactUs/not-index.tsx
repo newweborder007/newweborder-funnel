@@ -168,7 +168,7 @@ const ContactUs: React.FC = (): JSX.Element => {
       <div className=" flex w-full flex-col justify-between gap-8 lg:flex-row lg:gap-16">
         <div className="flex flex-col justify-center gap-8">
           <div onClick={() => router.push("/")}>
-            <Logo className="h-[1.21406rem] w-[6.5625rem]" />
+            <Logo />
           </div>
           <div className="flex flex-col gap-6">
             <div className="flex flex-col gap-1 text-sm">

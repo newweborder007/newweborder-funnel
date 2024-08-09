@@ -74,7 +74,7 @@ const DataAnalysis = ({ data }: { data: TDictionary }) => {
           className="flex flex-[0.8_1_0%] flex-col items-center gap-4 text-center lg:items-start lg:gap-8 lg:text-left"
           variants={item}
         >
-          <span className="text-md bg-gradient-to-r from-[#23FA4B] to-[#1af642] bg-clip-text font-semibold tracking-[0.00438rem] text-transparent font-orbitron">
+          <span className="text-md bg-gradient-to-r from-[#23FA4B] to-[#1af642] bg-clip-text font-orbitron font-semibold tracking-[0.00438rem] text-transparent">
             {data.analysisSection.highlight}
           </span>
           <div>
@@ -85,10 +85,12 @@ const DataAnalysis = ({ data }: { data: TDictionary }) => {
               <span className="font-orbitron text-[#23FA4B]">
                 {data.analysisSection.heading[1]}
               </span>
-              <span className="font-orbitron">{data.analysisSection.heading[2]}</span>
+              <span className="font-orbitron">
+                {data.analysisSection.heading[2]}
+              </span>
             </h2>
           </div>
-          <p className="text-sm font-medium tracking-[0.007rem] text-[#D1D5DB] lg:text-base">
+          <p className="font-notoSans text-sm font-medium tracking-[0.007rem] text-[#D1D5DB] lg:text-base">
             {data.analysisSection.description}
           </p>
           <motion.div variants={item} className="mt-4 lg:mt-0">

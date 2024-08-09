@@ -47,7 +47,7 @@ const Footer = () => {
         className="flex flex-col items-start gap-3 border-t border-[#083344] pt-8 lg:flex-row lg:justify-between lg:gap-0"
         variants={item}
       >
-        <p className="font-Urbanist flex flex-1 text-xs tracking-[0.00438rem] text-[#9CA3AF] lg:text-sm">
+        <p className="font-Urbanist flex flex-1 font-notoSans text-xs tracking-[0.00438rem] text-[#9CA3AF] lg:text-sm">
           {data.footerSection.copyRight}
         </p>
 

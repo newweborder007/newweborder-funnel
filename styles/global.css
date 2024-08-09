@@ -9,7 +9,7 @@
 *:before,
 *:after {
   box-sizing: inherit;
-  font-family: "notoSans";
+  /* font-family: "Inter", sans-serif; */
 }
 
 html {

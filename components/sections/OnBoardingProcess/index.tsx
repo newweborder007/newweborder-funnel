@@ -92,7 +92,7 @@ const OnBoardingProcess = ({ data }: { data: TDictionary }) => {
             </span>
             <span> {data.onBoardingSection.heading[1]} </span>
           </motion.h2>
-          <motion.p className="text-sm tracking-[0.00438rem] text-[#D1D5DB] lg:text-base lg:tracking-[0.005rem]">
+          <motion.p className="font-notoSans text-sm tracking-[0.00438rem] text-[#D1D5DB] lg:text-base lg:tracking-[0.005rem]">
             {data.onBoardingSection.subheading}
           </motion.p>
         </motion.div>

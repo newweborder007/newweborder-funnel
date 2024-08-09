@@ -39,10 +39,10 @@ const PricingCard: React.FC<PricingCardProps> = ({
         <h4 className="font-orbitron font-semibold tracking-[0.005rem] text-[#23FA4B]">
           {title}
         </h4>
-        <p className="text-3xl font-semibold tracking-[0.00938rem] text-[#CFFAFE]">
+        <p className="text-3xl font-semibold tracking-[0.00938rem] text-[#CFFAFE] font-notoSans">
           {price}
         </p>
-        <p className="text-sm font-medium tracking-[0.00438rem] text-[#9CA3AF]">
+        <p className="text-sm font-medium tracking-[0.00438rem] text-[#9cafa1] font-notoSans">
           {description}
         </p>
       </div>

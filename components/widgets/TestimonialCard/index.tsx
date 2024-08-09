@@ -30,7 +30,7 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({
           <p className="text-sm tracking-[0.00438rem] text-[#9CA3AF]">{role}</p>
         </div>
       </div>
-      <blockquote className="text-left text-sm tracking-[0.005rem] text-slate-300">
+      <blockquote className="text-left text-sm tracking-[0.005rem] text-slate-300 font-notoSans">
         “{testimony}”
       </blockquote>
     </div>

@@ -86,43 +86,42 @@ const ContactUs = () => {
       <div className="flex w-full flex-col justify-between gap-8 lg:flex-row lg:gap-16">
         <div className="flex flex-col gap-8">
           <div onClick={() => router.push("/")}>
-            <Logo className="h-[1.21406rem] w-[6.5625rem]" />
+            <Logo />
           </div>
           <div className="flex flex-col gap-6">
             <div className="flex flex-col gap-1 text-sm">
-              <p className="font-medium !leading-5 tracking-[0.00438rem] text-[#9CA3AF]">
+              <p className="font-notoSans font-medium !leading-5 tracking-[0.00438rem] text-[#9CA3AF]">
                 {data.contactUsSection.contactInformation.sectionHeader}
               </p>
-              <p className="flex flex-col !leading-[1.3125rem] text-[#F3F4F6]">
-                <span>
+              <p className="flex flex-col font-notoSans !leading-[1.3125rem] text-[#F3F4F6]">
+                <span className="font-notoSans">
                   {data.contactUsSection.contactInformation.PhoneNumber}
                 </span>
-                <span>
+                <span className="font-notoSans">
                   {data.contactUsSection.contactInformation.emailAddress}
                 </span>
               </p>
             </div>
-            <div className="flex items-center gap-3 text-[#06B6D4]">
+            <div className="flex items-center gap-3 text-[#23FA4B]">
               {data.contactUsSection.SocialMediaLinks.map((link) => (
                 <Link
                   key={link.name}
                   href={link.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-2xl hover:text-[#0E7490]"
+                  className="text-2xl hover:text-[#17900e]"
                 >
                   {link.name === "facebook" && <FaFacebook />}
                   {link.name === "instagram" && <FaInstagram />}
                   {link.name === "twitter" && <FaXTwitter />}
                   {link.name === "linkedin" && <FaLinkedin />}
-                  {/* {link.name === 'youtube' && <FaYoutube />} */}
                 </Link>
               ))}
             </div>
           </div>
         </div>
         <div className="flex w-full flex-col gap-6 lg:w-[31.25rem]">
-          <p className="font-roboto text-[#F3F4F6]">
+          <p className="font-notoSans text-[#F3F4F6]">
             {data.contactUsSection.subscriptionNotice.callToAction}
           </p>
           <div className="flex flex-col gap-4">
@@ -144,7 +143,7 @@ const ContactUs = () => {
                 {data.contactUsSection.subscriptionNotice.buttonText}
               </Button>
             </div>
-            <p className="font-roboto text-sm text-[#9CA3AF]">
+            <p className="font-roboto font-notoSans text-sm text-[#9CA3AF]">
               <span>
                 {
                   data.contactUsSection.subscriptionNotice

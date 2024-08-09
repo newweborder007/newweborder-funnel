@@ -63,7 +63,7 @@ const WelcomeBanner = ({ data }: { data: TDictionary }) => {
                 {data.heroSection.heading[1]}{" "}
               </span>
             </h1>
-            <p className="max-w-screen-sm  text-sm text-[#D1D5DB] lg:text-lg">
+            <p className="max-w-screen-sm  font-notoSans text-sm text-[#D1D5DB] lg:text-lg">
               {data.heroSection.subheading}
             </p>
           </motion.div>
