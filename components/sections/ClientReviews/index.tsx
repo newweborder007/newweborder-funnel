@@ -57,7 +57,7 @@ const ClientReviews = ({ data }: { data: TDictionary }) => {
               {data.clientReviewsSection.heading[1]}{" "}
             </span>
           </h2>
-          <p className="text-sm tracking-[0.005rem] text-[#D1D5DB] lg:text-base">
+          <p className="font-notoSans text-sm tracking-[0.005rem] text-[#D1D5DB] lg:text-base">
             {data.clientReviewsSection.subheading}
           </p>
         </motion.div>

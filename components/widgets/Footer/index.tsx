@@ -52,7 +52,7 @@ const Footer = () => {
         </p>
 
         <div className="flex flex-1 justify-center">
-          <p className="text-sm ">
+          {/* <p className="text-sm ">
             Realised by{" "}
             <a
               href="https://www.newweborder.co/"
@@ -61,7 +61,7 @@ const Footer = () => {
             >
               ◬ ɴᴇᴡ ᴡᴇʙ ᴏʀᴅᴇʀ_
             </a>
-          </p>
+          </p> */}
         </div>
 
         <div className="flex flex-1 justify-end gap-6">

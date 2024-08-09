@@ -137,8 +137,8 @@ const ContactUs = () => {
               <Button
                 type="button"
                 shape="filled"
-                size="default"
-                width={100}
+                size="small"
+                width={118.4}
                 onClick={(e) => handleSubmit(e)}
               >
                 {data.contactUsSection.subscriptionNotice.buttonText}
