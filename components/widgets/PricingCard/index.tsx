@@ -31,7 +31,7 @@ const PricingCard: React.FC<PricingCardProps> = ({
       className={`flex flex-col justify-between gap-8 rounded-2xl border-2 p-8  ${badge ? "relative border-[#6d806b]" : "border-[#1f3722]"} h-full max-w-[20.33331rem] bg-[#141714]`}
     >
       {badge && (
-        <div className="absolute right-[6.35419rem] top-[-0.875rem] rounded-full bg-gradient-to-t from-[#9CA3AF] to-[#ECEEED] px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.00375rem] text-[#030712]">
+        <div className="absolute right-[6.35419rem] top-[-0.875rem] rounded-full bg-gradient-to-t from-[#ECEEED] to-[#ECEEED] px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.00375rem] text-[#030712]">
           {badge}
         </div>
       )}
@@ -39,10 +39,10 @@ const PricingCard: React.FC<PricingCardProps> = ({
         <h4 className="font-orbitron font-semibold tracking-[0.005rem] text-[#23FA4B]">
           {title}
         </h4>
-        <p className="text-3xl font-semibold tracking-[0.00938rem] text-[#CFFAFE] font-notoSans">
+        <p className="font-notoSans text-3xl font-semibold tracking-[0.00938rem] text-[#CFFAFE]">
           {price}
         </p>
-        <p className="text-sm font-medium tracking-[0.00438rem] text-[#9cafa1] font-notoSans">
+        <p className="font-notoSans text-sm font-medium tracking-[0.00438rem] text-[#9cafa1]">
           {description}
         </p>
       </div>

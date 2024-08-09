@@ -90,7 +90,7 @@ const ContactUs = () => {
           </div>
           <div className="flex flex-col gap-6">
             <div className="flex flex-col gap-1 text-sm">
-              <p className="font-notoSans font-medium !leading-5 tracking-[0.00438rem] text-[#9CA3AF]">
+              <p className="font-notoSans font-medium !leading-5 tracking-[0.00438rem] text-[#ECEEED]">
                 {data.contactUsSection.contactInformation.sectionHeader}
               </p>
               <p className="flex flex-col font-notoSans !leading-[1.3125rem] text-[#F3F4F6]">
@@ -143,7 +143,7 @@ const ContactUs = () => {
                 {data.contactUsSection.subscriptionNotice.buttonText}
               </Button>
             </div>
-            <p className="font-roboto font-notoSans text-sm text-[#9CA3AF]">
+            <p className="font-roboto font-notoSans text-sm text-[#ECEEED]">
               <span>
                 {
                   data.contactUsSection.subscriptionNotice
