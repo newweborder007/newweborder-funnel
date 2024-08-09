@@ -28,7 +28,7 @@ const PricingCard: React.FC<PricingCardProps> = ({
 }) => {
   return (
     <div
-      className={`flex flex-col gap-8 rounded-2xl border-2 p-8  ${badge ? "relative border-[#6d806b]" : "border-[#1f3722]"} max-w-[20.33331rem] bg-[#141714]`}
+      className={`flex flex-col justify-between gap-8 rounded-2xl border-2 p-8  ${badge ? "relative border-[#6d806b]" : "border-[#1f3722]"} h-full max-w-[20.33331rem] bg-[#141714]`}
     >
       {badge && (
         <div className="absolute right-[6.35419rem] top-[-0.875rem] rounded-full bg-gradient-to-t from-[#9CA3AF] to-[#ECEEED] px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.00375rem] text-[#030712]">
