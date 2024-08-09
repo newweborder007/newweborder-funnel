@@ -1,9 +1,9 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React from "react";
+import ContactUs from "../ContactUs";
 import { motion } from "framer-motion";
 import data from "@/dictionaries/en.json";
-import ContactUs from "../ContactUs";
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
@@ -32,7 +32,6 @@ const Footer = () => {
       },
     },
   };
-
   return (
     <motion.footer
       className="mx-auto flex w-full max-w-5xl flex-col justify-center gap-8 bg-transparent px-4 py-16 lg:gap-20 lg:px-0"
@@ -54,7 +53,7 @@ const Footer = () => {
 
         <div className="flex flex-1 justify-center">
           <p className="text-sm ">
-            Made by
+            Realised by{" "}
             <a
               href="https://www.newweborder.co/"
               target="_blank"

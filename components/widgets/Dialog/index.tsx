@@ -1,7 +1,10 @@
 import { Button, Dialog, DialogPanel, DialogTitle } from "@headlessui/react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
-export default function MyModal() {
+interface Props {
+  open: boolean;
+}
+export default function MyModal(props: Props) {
   let [isOpen, setIsOpen] = useState(true);
 
   function open() {
@@ -12,14 +15,17 @@ export default function MyModal() {
     setIsOpen(false);
   }
 
+  useEffect(() => {
+    setIsOpen(props.open);
+  }, []);
   return (
     <>
-      <Button
+      {/* <Button
         onClick={open}
         className="rounded-md bg-black/20 px-4 py-2 text-sm font-medium text-white focus:outline-none data-[hover]:bg-black/30 data-[focus]:outline-1 data-[focus]:outline-white"
       >
         Open dialog
-      </Button>
+      </Button> */}
 
       <Dialog
         open={isOpen}

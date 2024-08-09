@@ -56,7 +56,7 @@ const PriceBreakdown = ({ data }: { data: TDictionary }) => {
               {data.pricingSection.heading[1]}{" "}
             </span>
           </motion.h2>
-          <motion.p className="text-sm tracking-[0.00438rem] text-[#D1D5DB] lg:text-base lg:tracking-[0.005rem]">
+          <motion.p className="text-sm tracking-[0.00438rem] text-[#D1D5DB] lg:text-base lg:tracking-[0.005rem] font-notoSans">
             {data.pricingSection.subheading}
           </motion.p>
         </motion.div>

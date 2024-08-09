@@ -43,7 +43,7 @@ const BenefitsShowcase = ({ data }: { data: TDictionary }) => {
         viewport={{ once: true, amount: 0.2 }}
       >
         <motion.div
-          className="font-orbitron mx-auto flex max-w-[48rem] flex-col gap-3 lg:gap-4"
+          className="mx-auto flex max-w-[48rem] flex-col gap-3 font-orbitron lg:gap-4"
           variants={item}
         >
           <h2 className="text-xl font-semibold tracking-[0.015rem] text-[#ECEEED] lg:text-5xl">
@@ -54,7 +54,7 @@ const BenefitsShowcase = ({ data }: { data: TDictionary }) => {
             </span>
             <span>{data.benefitsSection.heading[2]}</span>
           </h2>
-          <p className="text-sm tracking-[0.005rem] text-[#D1D5DB] lg:text-base">
+          <p className="font-notoSans text-sm tracking-[0.005rem] text-[#D1D5DB] lg:text-base">
             {data.benefitsSection.subheading}
           </p>
         </motion.div>
