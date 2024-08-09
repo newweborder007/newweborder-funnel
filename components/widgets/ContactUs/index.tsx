@@ -10,7 +10,9 @@ import Input from "../Input";
 import Button from "../Button";
 import Link from "next/link";
 import data from "@/dictionaries/en.json";
-import MyModal from "../Dialog";
+import { ToastContainer, toast, Flip } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { isEmail } from "validator";
 
 const ContactUs = () => {
   const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
@@ -26,7 +28,6 @@ const ContactUs = () => {
   const router = useRouter();
 
   const [email, setEmail] = useState("");
-  const [showdialog, setShowDialog] = useState(false);
 
   var templateParams = {
     email: email,
@@ -34,29 +35,55 @@ const ContactUs = () => {
 
   const handleInputChange = (value: string) => {
     setEmail(value);
-    // console.log("hande input change: ", value)
   };
 
   const handleSubmit = async (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
-    // emailjs.send("service_x8xzlm3", "template_za2tq2b", templateParams, "ggiJhlkvIWbcV1sQI")
-    emailjs.send(serviceId, templateId, templateParams, publicKey).then(
-      function (response) {
-        setShowDialog(() => true);
-        console.log("SUCCESS!", response.status, response.text);
-      },
-      function (err) {
-        console.log("FAILED...", err);
-      },
-    );
-    // console.log("IN EMAIL JS: ", email)
+    // console.log("roun once");
+    if (isEmail(email)) {
+      emailjs.send(serviceId, templateId, templateParams, publicKey).then(
+        function (response) {
+          console.log("SUCCESS!", response.status, response.text);
+          toast.success("Form submitted successfully.", {
+            position: "bottom-right",
+            autoClose: 3000,
+            hideProgressBar: true,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+          });
+        },
+        function (err) {
+          console.log("FAILED...", err);
+          toast.error("Invalid Email Address", {
+            position: "bottom-right",
+            autoClose: 3000,
+            hideProgressBar: true,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+          });
+        },
+      );
+    } else {
+      toast.error("Invalid Email Address", {
+        position: "bottom-right",
+        autoClose: 3000,
+        hideProgressBar: true,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+      });
+    }
     setEmail("");
   };
 
   return (
     <>
-      <MyModal open={showdialog} />
-      <div className=" flex w-full flex-col justify-between gap-8 lg:flex-row lg:gap-16">
+      <div className="flex w-full flex-col justify-between gap-8 lg:flex-row lg:gap-16">
         <div className="flex flex-col gap-8">
           <div onClick={() => router.push("/")}>
             <Logo className="h-[1.21406rem] w-[6.5625rem]" />
@@ -101,24 +128,18 @@ const ContactUs = () => {
           <div className="flex flex-col gap-4">
             <div className="flex items-center gap-2">
               <Input
+                required={true}
                 value={email}
                 onChange={handleInputChange}
                 placeholder={data.contactUsSection.subscriptionNotice.inputText}
                 type="email"
               />
-              {/* <Button
-              shape="surface"
-              size="default"
-              width={115.04}
-              onClick={handleSubmit}
-            >
-              {data.contactUsSection.subscriptionNotice.buttonText}
-            </Button> */}
               <Button
+                type="button"
                 shape="filled"
                 size="default"
                 width={100}
-                onClick={handleSubmit}
+                onClick={(e) => handleSubmit(e)}
               >
                 {data.contactUsSection.subscriptionNotice.buttonText}
               </Button>
@@ -130,12 +151,27 @@ const ContactUs = () => {
                     .confirmationStatement[0]
                 }
               </span>
-              {/* <span className='underline'>{data.contactUsSection.subscriptionNotice.confirmationStatement[1]}</span> */}
-              {/* <span>{data.contactUsSection.subscriptionNotice.confirmationStatement[2]}</span> */}
             </p>
           </div>
         </div>
       </div>
+
+      {/* Toast Container Positioned at Bottom-Right of Viewport */}
+      <ToastContainer
+        transition={Flip}
+        position="bottom-right"
+        autoClose={3000}
+        limit={4}
+        hideProgressBar
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+        className="fixed bottom-4 right-4 z-50"
+      />
     </>
   );
 };

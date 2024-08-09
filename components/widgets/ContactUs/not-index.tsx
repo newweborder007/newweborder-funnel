@@ -13,7 +13,6 @@ import { isEmail } from "validator";
 import { toast } from "react-toastify";
 import Dropdown from "react-dropdown";
 import Example from "../DropDown";
-import MyModal from "../Dialog";
 
 const ContactUs: React.FC = (): JSX.Element => {
   const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
