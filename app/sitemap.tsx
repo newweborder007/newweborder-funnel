@@ -8,7 +8,7 @@ const baseUrls = ["/"];
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: "http://localhost:3000",
+      url: "https://newweborder-funnel-git-master-new-web-orders-projects.vercel.app/",
       lastModified: new Date(),
       priority: 1,
     },
