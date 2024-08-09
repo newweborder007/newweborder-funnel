@@ -27,7 +27,9 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({
         />
         <div className="text-left">
           <h5 className="font-medium text-[#ECEEED]">{name}</h5>
-          <p className="text-sm tracking-[0.00438rem] text-[#ECEEED]">{role}</p>
+          <p className="font-notoSans text-sm tracking-[0.00438rem] text-[#ECEEED]">
+            {role}
+          </p>
         </div>
       </div>
       <blockquote className="text-left font-notoSans text-sm tracking-[0.005rem] text-slate-300">
