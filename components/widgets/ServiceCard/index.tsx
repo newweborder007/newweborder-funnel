@@ -23,7 +23,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
       onMouseLeave={() => setIsHovering(false)}
     >
       <div
-        className={`${styles.lottie_container} ${type === "feature" ? "self-start" : "flex h-16 w-16 items-center justify-center self-center rounded-2xl border border-[#083344] p-[0.8235rem]"}`}
+        className={`${styles.lottie_container} ${type === "feature" ? "self-start" : "flex h-16 w-16 items-center justify-center self-center rounded-2xl border border-[#23FA4B] p-[0.8235rem]"}`}
       >
         <Lottie
           animationData={animatedIconData}

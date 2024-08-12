@@ -7,7 +7,6 @@ import ReactPlayer from "react-player";
 import NoSsr from "@/components/widgets/NoSsr";
 import styles from "./welcome.module.css";
 import { motion } from "framer-motion";
-import Link from "next/link";
 import CalendlyWidget from "@/components/widgets/Calendly";
 
 const WelcomeBanner = ({ data }: { data: TDictionary }) => {
