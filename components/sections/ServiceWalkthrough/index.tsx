@@ -75,13 +75,13 @@ const ServiceWalkthrough = ({ data }: { data: TDictionary }) => {
           variants={item}
         >
           <div className="flex flex-col gap-4">
-            <motion.span className="text-md bg-gradient-to-r from-[#23FA4B] to-[#1af642] bg-clip-text font-semibold tracking-[0.00438rem] text-transparent">
+            <motion.span className="text-md bg-gradient-to-r from-[#23FA4B] to-[#1af642] bg-clip-text font-orbitron font-semibold tracking-[0.00438rem] text-transparent">
               {data.howItWorksSection.highlight}
             </motion.span>
             <motion.h2 className="font-orbitron text-xl font-bold tracking-[0.01125rem] text-[#ECEEED] lg:text-4xl">
               {data.howItWorksSection.heading}
             </motion.h2>
-            <motion.p className="text-sm font-medium tracking-[0.00438rem] text-[#D1D5DB] lg:text-base lg:tracking-[0.007rem] font-notoSans">
+            <motion.p className="font-notoSans text-sm font-medium tracking-[0.00438rem] text-[#D1D5DB] lg:text-base lg:tracking-[0.007rem]">
               {data.howItWorksSection.description}
             </motion.p>
           </div>

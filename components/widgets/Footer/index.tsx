@@ -56,7 +56,7 @@ const Footer = () => {
             <a
               key={item.name}
               href={item.href}
-              className="  text-xs font-medium tracking-[0.00438rem] lg:text-sm"
+              className="  font-notoSans text-xs font-medium tracking-[0.00438rem] lg:text-sm"
             >
               {item.name}
             </a>

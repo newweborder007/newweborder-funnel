@@ -20,6 +20,7 @@ const Input = ({ className, onChange, ...rest }: Props) => {
   return (
     <label>
       <input
+        required
         className={rootClassName}
         onChange={handleOnChange}
         autoComplete="off"

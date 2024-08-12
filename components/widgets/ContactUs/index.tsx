@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { FormEvent, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Logo from "@/components/widgets/Logo";
 import { useRouter } from "next/navigation";
@@ -37,9 +37,9 @@ const ContactUs = () => {
     setEmail(value);
   };
 
-  const handleSubmit = async (e: React.MouseEvent<HTMLButtonElement>) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    // console.log("roun once");
+    console.log("roun once", isEmail(email));
     if (isEmail(email)) {
       emailjs.send(serviceId, templateId, templateParams, publicKey).then(
         function (response) {
@@ -125,24 +125,21 @@ const ContactUs = () => {
             {data.contactUsSection.subscriptionNotice.callToAction}
           </p>
           <div className="flex flex-col gap-4">
-            <div className="flex items-center gap-2">
+            <form
+              className="flex items-center gap-2"
+              onSubmit={(e) => handleSubmit(e)}
+            >
               <Input
-                required={true}
+                required
                 value={email}
                 onChange={handleInputChange}
                 placeholder={data.contactUsSection.subscriptionNotice.inputText}
                 type="email"
               />
-              <Button
-                type="button"
-                shape="filled"
-                size="small"
-                width={118.4}
-                onClick={(e) => handleSubmit(e)}
-              >
+              <Button type="submit" shape="filled" size="small" width={118.4}>
                 {data.contactUsSection.subscriptionNotice.buttonText}
               </Button>
-            </div>
+            </form>
             <p className="font-roboto font-notoSans text-sm text-[#ECEEED]">
               <span>
                 {

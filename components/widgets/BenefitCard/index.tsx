@@ -38,7 +38,7 @@ const BenefitCard: React.FC<BenefitCardProps> = ({
         />
       </div>
       <div className={`flex flex-1 flex-col gap-2 ${textAlignment}`}>
-        <h4 className="text-base font-bold tracking-[0.005rem] text-[#ECEEED] lg:text-xl lg:tracking-[0.00625rem]">
+        <h4 className="text-base font-bold tracking-[0.005rem] text-[#ECEEED] lg:text-xl lg:tracking-[0.00625rem] font-orbitron">
           {title}
         </h4>
         <p className="font-notoSans text-sm tracking-[0.00438rem] text-[#D1D5DB] lg:text-base lg:tracking-[0.005rem]">

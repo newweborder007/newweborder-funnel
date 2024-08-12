@@ -8,6 +8,7 @@ import NoSsr from "@/components/widgets/NoSsr";
 import styles from "./welcome.module.css";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import CalendlyWidget from "@/components/widgets/Calendly";
 
 const WelcomeBanner = ({ data }: { data: TDictionary }) => {
   const container = {
@@ -82,14 +83,6 @@ const WelcomeBanner = ({ data }: { data: TDictionary }) => {
           <motion.div className={`h-auto w-3/5  ${styles.video_player}`}>
             <NoSsr>
               {!true && <div className={`${styles.skeleton_shimmer}`}></div>}
-              {/* <ReactPlayer
-                // url="http://www.youtube.com/watch?v=svIafaRgXnc"
-                url={process.env.NEXT_PUBLIC_YOUTUBE_VIDEO_LINK}
-                className={styles.responsive_player}
-                controls={true}
-                onReady={() => setIsVideoLoaded(true)}
-                style={{ display: isVideoLoaded ? "block" : "none" }}
-              /> */}
               <div
                 className="calendly-inline-widget"
                 data-url="https://calendly.com/newweborderhr"
@@ -104,6 +97,7 @@ const WelcomeBanner = ({ data }: { data: TDictionary }) => {
                 src="https://assets.calendly.com/assets/external/widget.js"
                 async
               ></script>
+              {/* <CalendlyWidget /> */}
             </NoSsr>
           </motion.div>
         </motion.div>

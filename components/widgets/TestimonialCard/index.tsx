@@ -26,7 +26,7 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({
           className="rounded-full"
         />
         <div className="text-left">
-          <h5 className="font-medium text-[#ECEEED]">{name}</h5>
+          <h5 className="font-notoSans font-medium text-[#ECEEED]">{name}</h5>
           <p className="font-notoSans text-sm tracking-[0.00438rem] text-[#ECEEED]">
             {role}
           </p>
