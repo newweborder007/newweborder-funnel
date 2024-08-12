@@ -1,0 +1,7 @@
+095C19      darkest
+
+9FEFAE      light
+
+136723      darker
+
+23FA4B      main
