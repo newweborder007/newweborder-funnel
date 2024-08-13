@@ -47,7 +47,7 @@ const ClientReviews = ({ data }: { data: TDictionary }) => {
         viewport={{ once: true, amount: 0.2 }}
       >
         <motion.div
-          className="font-orbitron mx-auto flex max-w-[48rem] flex-col gap-3 lg:gap-4"
+          className="mx-auto flex max-w-[48rem] flex-col gap-3 font-orbitron lg:gap-4"
           variants={item}
         >
           <h2 className="text-xl font-semibold tracking-[0.015rem] text-[#ECEEED] lg:text-5xl">
@@ -81,7 +81,7 @@ const ClientReviews = ({ data }: { data: TDictionary }) => {
             rel="noopener noreferrer"
           >
             <Button shape="filled" size="default" width={192}>
-              Schedule a Demo
+              Schedule a Call
             </Button>
           </a>
         </motion.div>

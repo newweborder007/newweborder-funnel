@@ -9,43 +9,43 @@
   },
   "heroSection": {
     "heading": {
-      "0": "Elevating Your Business with Advanced ",
-      "1": "AI and Automations"
+      "0": "Transforming Your Business with Cutting-Edge ",
+      "1": "UI/UX Design and Software Development"
     },
-    "subheading": "Step into an era of efficiency with our AI solutions. Intelligent automations seamlessly integrate, redefining workflows in your business.",
-    "buttonText": "Schedule a Demo"
+    "subheading": "We believe that technology should work for you, not against you. That's why we create software solutions that empower you to take your business to the next level.",
+    "buttonText": "Schedule a Call"
   },
   "featuresSection": {
     "heading": {
-      "0": "Explore Our ",
-      "1": "Wide Selection ",
-      "2": "of Creative Business Tools"
+      "0": "Discover Our ",
+      "1": "Comprehensive Range ",
+      "2": "of Innovative Business Solutions"
     },
-    "subheading": "Elevating productivity across multiple domains through chatbots, automations and optimized workflows.",
+    "subheading": "Need a website, app, or brand overhaul? NWO delivers with expertise, insight, and resourcefulness for every project.",
     "features": [
       {
-        "feature": "Customer Service",
-        "description": "Specialized platforms to boost query resolution and customer satisfaction."
+        "feature": "UX & UI Design",
+        "description": "Great design is more than looks; it's about functionality. We create exceptional user experiences, meticulously crafting every pixel and interaction."
       },
       {
-        "feature": "Sales Systems",
-        "description": "Streamline the sales process from lead capture to deal closure, increasing productivity and revenue."
+        "feature": "Websites",
+        "description": "We transform sluggish websites into modern marvels with stellar performance and smooth user experiences, surpassing Core Web Vitals effortlessly."
       },
       {
-        "feature": "Lead Management",
-        "description": "Efficiently manage leads with tools to ensure no missed opportunities and proper nurturing."
+        "feature": "Bringing AI into the Fold",
+        "description": "We're pioneering technology, integrating AI into every service—websites, designs, and apps that anticipate, resonate, and adapt."
       },
       {
-        "feature": "Lead Generation",
-        "description": "Innovative solutions to attract and secure high-quality leads."
+        "feature": "Web Apps",
+        "description": "We push innovation beyond websites into web apps, using Next.js, Vue, Vercel, and more to turn ideas into scalable solutions."
       },
       {
-        "feature": "Team Management",
-        "description": "Tools for better team collaboration, communication, task allocation, and project tracking."
+        "feature": "Software as a service",
+        "description": "Our expertise in software development transforms concepts into code, turning digital dreams into reality with precision and innovation."
       },
       {
-        "feature": "Client Management",
-        "description": "Strengthen client relationships with tools for enhanced communication."
+        "feature": "Mobile Apps",
+        "description": "We craft mobile apps that exceed expectations, creating memorable user journeys from concept to app store, as your dedicated allies."
       }
     ]
   },
@@ -56,32 +56,32 @@
       "1": "Efficiency",
       "2": ", Enduring Success"
     },
-    "description": "Our strategic automations redefine efficiency, requiring less effort while serving as the linchpinfor sustained success and scalable growth. Seamlessly integrated into your operations, theycreate a dynamic foundation, streamlining processes and positioning your business for futurescalability. Embrace a future where automated processes propel your business forward,simplifying complexities and fostering a path to enduring success.",
+    "description": "Our strategic automations redefine efficiency by minimizing effort while laying the groundwork for sustained success and scalable growth. Seamlessly integrated into your operations, these automations streamline processes, positioning your business for future scalability. Embrace a future where automated processes simplify complexities and propel your business forward, fostering a path to enduring success.",
     "buttonText": "View our Pricing Plans"
   },
   "benefitsSection": {
     "heading": {
       "0": "The ",
-      "1": "Viayze ",
+      "1": "NWO ",
       "2": "Advantage"
     },
-    "subheading": "More than just solutions, we're your partner in success.",
+    "subheading": "More than just solutions, we're your digital partner in success.",
     "cards": [
       {
-        "title": "Partnership Approach",
-        "description": "Prioritizing collaboration for custom solutions aligned with your unique objectives, ensuring continued success."
+        "title": "Expert Problem Solving",
+        "description": "Leveraging our technical, creative, and entrepreneurial expertise to understand complex problems and deliver solutions that exceed expectations. We adapt to your team’s working style without pretense or technical biases."
       },
       {
-        "title": "Cost Reduction",
-        "description": "Maximizing Value Through Strategic Cost Cutting"
+        "title": "Cost Optimization",
+        "description": "Achieving Greater Value Through Strategic Cost Management"
       },
       {
-        "title": "Time Saving",
-        "description": "Enhancing Efficiency by Saving Precious Human Time"
+        "title": "Time Efficiency",
+        "description": "Boosting Productivity by Conserving Valuable Human Time"
       },
       {
-        "title": "Process Automation",
-        "description": "Advancing Innovation by Implementing Efficient, Automated Systems for Streamlined Processes"
+        "title": "Collaborative Partnerships",
+        "description": "Working alongside marketing and leadership teams at startups, agencies, and companies of all sizes, fostering honest, upfront, and real working relationships."
       }
     ]
   },
@@ -90,32 +90,32 @@
       "0": "Pricing based on ",
       "1": "your needs"
     },
-    "subheading": "For tailored solutions aligned with your objectives, a discovery call is essential. Prices listed are in USD, but it's important to note that we serve a diverse global clientele.",
+    "subheading": "A discovery call is crucial for custom solutions that align with your goals. Prices are listed in USD, and we cater to a global clientele.",
     "pricingOptions": [
       {
         "title": "BASIC",
-        "price": "$1,500",
+        "price": "$5,000 - $9,999",
         "description": "Start with the fundamentals for immediate operational enhancement.",
         "features": [
-          { "text": "AI Audit" },
-          { "text": "Custom AI Strategy" },
-          { "text": "Basic Chatbots" },
-          { "text": "Basic Automations" },
-          { "text": "Ongoing Support" }
+          { "text": "Website Audit" },
+          { "text": "Custom Web Strategy" },
+          { "text": "Basic Web Features" },
+          { "text": "Essential Automations" },
+          { "text": "Ongoing Maintenance" }
         ],
         "buttonText": "Get Started"
       },
       {
         "title": "PRO",
         "badge": "Most Popular",
-        "price": "$2,000",
+        "price": "$10,000 - $24,999",
         "description": "Everything in Basic, plus advanced features.",
         "features": [
-          { "text": "AI Audit" },
-          { "text": "Custom AI Strategy" },
-          { "text": "Tailored Chatbots" },
-          { "text": "Workflow Automations" },
-          { "text": "Ongoing Support" }
+          { "text": "Website Audit" },
+          { "text": "Custom Web Strategy" },
+          { "text": "Advanced Web Features" },
+          { "text": "Advanced Automations" },
+          { "text": "Continuous Maintenance" }
         ],
         "buttonText": "Get Started"
       },
@@ -124,10 +124,11 @@
         "price": "Custom",
         "description": "For large-scale applications managing serious workloads.",
         "features": [
-          { "text": "AI Audit" },
-          { "text": "Custom AI Strategy" },
-          { "text": "Tailored Chatbots" },
-          { "text": "Workflow Automations" },
+          { "text": "Website Audit" },
+          { "text": "Custom Web Strategy" },
+          { "text": "Custom Web Features" },
+          { "text": "Custom Automations" },
+          { "text": "Continuous Maintenance" },
           { "text": "24/7 Support" }
         ],
         "buttonText": "Contact Us"
@@ -135,33 +136,33 @@
     ]
   },
   "howItWorksSection": {
-    "highlight": "Reply Instantly",
-    "heading": "Chatbot Builds",
-    "description": "Explore the transformative capabilities of our chatbots, surpassing conversation. These dynamic tools excel in lead generation, providing instant customer query responses, and seamlessly integrating data across applications. Elevate satisfaction and optimize data usage across your business ecosystem.",
-    "buttonText": "Learn more"
+    "highlight": "Instant Solutions",
+    "heading": "Digital Solutions",
+    "description": "Discover how our digital solutions transform your online presence. Beyond basic functionality, our services enhance lead generation, streamline customer interactions, and integrate data seamlessly across platforms. Boost efficiency and elevate user experiences within your digital ecosystem.",
+    "buttonText": "Learn More"
   },
   "onBoardingSection": {
     "heading": {
       "0": "Effortless ",
-      "1": "Onboarding with Viayze"
+      "1": "Onboarding with NWO"
     },
     "subheading": "From initial consultation to continuous enhancement",
     "processes": [
       {
         "process": "Discovery",
-        "description": "Uncover business potential through KPIs and model analysis to guide understanding of unique needs."
+        "description": "Identify your business’s unique needs through comprehensive analysis and KPI evaluation to uncover growth opportunities."
       },
       {
         "process": "Strategy",
-        "description": "Craft a bespoke strategy, outlining a tailored roadmap for success based on your specific requirements."
+        "description": "Develop a customized strategy with a clear roadmap to address your specific goals and requirements."
       },
       {
         "process": "Implementation",
-        "description": "Build and integrate cutting-edge solutions for seamless incorporation into your systems, driving operational efficiencies."
+        "description": "Design and deploy innovative digital solutions seamlessly integrated into your existing systems for improved efficiency."
       },
       {
         "process": "Optimization",
-        "description": "Ensure ongoing success with monthly check-ins, fine-tuning custom AI solutions to align with evolving business needs."
+        "description": "Drive ongoing success with regular updates and refinements to ensure solutions adapt to your evolving business needs."
       }
     ]
   },
@@ -170,70 +171,70 @@
       "0": "Voices of ",
       "1": "Success"
     },
-    "subheading": "Explore how businesses like yours thrive with Viayze through compelling testimonials. Gain insights into tangible benefits, fostering success through valued partnerships.",
+    "subheading": "Explore how businesses like yours thrive with New Web Order through compelling testimonials. Gain insights into tangible benefits, fostering success through valued partnerships.",
     "reviews": [
       {
         "name": "Lyutobor Yareshko",
         "role": "Customer Service Manager",
         "image": "https://randomuser.me/api/portraits/men/3.jpg",
-        "testimony": "Viayze AI transformed the way we handle queries. We now resolves issues faster and with more accuracy, boosting overall customer trust and loyalty."
+        "testimony": "NWO worked their magic and made my project shine! I was blown away by their skills and now I feel like a tech wizard. Thanks for the digital wizardry!"
       },
       {
         "name": "Frederic Roodbol",
         "role": "Head of IT Operations",
         "image": "https://randomuser.me/api/portraits/men/52.jpg",
-        "testimony": "Implementing Viayze's AI solutions was seamless and efficient. Their technology not only optimized our workflow but also significantly reduced operational costs."
+        "testimony": "NWO worked their magic and made my project shine! I was blown away by their skills and now I feel like a tech wizard. Thanks for the digital wizardry!"
       },
       {
         "name": "Amy Miles",
         "role": "Marketing Director",
         "image": "https://randomuser.me/api/portraits/women/54.jpg",
-        "testimony": "The insights provided by Viayze's AI tools have been invaluable. Our marketing strategies are now more data-driven and effective, leading to higher engagement rates."
+        "testimony": "NWO worked their magic and made my project shine! I was blown away by their skills and now I feel like a tech wizard. Thanks for the digital wizardry!"
       },
       {
         "name": "Likera Prihodnyuk",
         "role": "CEO of a Tech Startup",
         "image": "https://randomuser.me/api/portraits/women/20.jpg",
-        "testimony": "Viayze's blend of AI and empathy has revolutionized our customer interactions. The level of personalization and understanding their tools offer is unmatched"
+        "testimony": "NWO worked their magic and made my project shine! I was blown away by their skills and now I feel like a tech wizard. Thanks for the digital wizardry!"
       },
       {
         "name": "Charlie Perez",
         "role": "Operations Manager",
         "image": "https://randomuser.me/api/portraits/men/33.jpg",
-        "testimony": "With Viayze, we've seen an improvement in understanding our customers' needs. Their analytics have been crucial in shaping our customer service strategies"
+        "testimony": "NWO worked their magic and made my project shine! I was blown away by their skills and now I feel like a tech wizard. Thanks for the digital wizardry!"
       },
       {
         "name": "Ernest Cunningham",
         "role": "Head of Customer Insights",
         "image": "https://randomuser.me/api/portraits/men/10.jpg",
-        "testimony": "Efficiency is key in our operations, and Viayze delivered just that. Their AI solutions have streamlined our processes, making us more agile and responsive."
+        "testimony": "NWO worked their magic and made my project shine! I was blown away by their skills and now I feel like a tech wizard. Thanks for the digital wizardry!"
       },
       {
         "name": "Lily Fletcher",
         "role": "E-commerce Manager",
         "image": "https://randomuser.me/api/portraits/women/79.jpg",
-        "testimony": "Our online customer satisfaction ratings have soared since we started using Viayze. The personalized support their AI provides has made a real difference."
+        "testimony": "NWO worked their magic and made my project shine! I was blown away by their skills and now I feel like a tech wizard. Thanks for the digital wizardry!"
       },
       {
         "name": "Giray Ertürk",
         "role": "Chief Operating Officer",
         "image": "https://randomuser.me/api/portraits/men/25.jpg",
-        "testimony": "Efficiency is key in our operations, and Viayze delivered just that. Their AI solutions have streamlined our processes, making us more agile and responsive"
+        "testimony": "NWO worked their magic and made my project shine! I was blown away by their skills and now I feel like a tech wizard. Thanks for the digital wizardry!"
       },
       {
         "name": "Goricvit",
         "role": "UX/UI Designer",
         "image": "https://randomuser.me/api/portraits/men/45.jpg",
-        "testimony": "Viayze has been instrumental in enhancing our user experience. Their AI tools have helped us create more intuitive and user-friendly interfaces"
+        "testimony": "NWO worked their magic and made my project shine! I was blown away by their skills and now I feel like a tech wizard. Thanks for the digital wizardry!"
       },
       {
         "name": "Canto Castro",
         "role": "Marketing Director",
         "image": "https://randomuser.me/api/portraits/men/55.jpg",
-        "testimony": "The insights provided by Viayze's AI tools have been invaluable. Our marketing strategies are now more data-driven and effective, leading to higher engagement rates."
+        "testimony": "NWO worked their magic and made my project shine! I was blown away by their skills and now I feel like a tech wizard. Thanks for the digital wizardry!"
       }
     ],
-    "buttonText": "Build a Bot"
+    "buttonText": "Give Us a Call"
   },
   "contactUsSection": {
     "contactInformation": {
