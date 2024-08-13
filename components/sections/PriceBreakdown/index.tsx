@@ -46,7 +46,7 @@ const PriceBreakdown = ({ data }: { data: TDictionary }) => {
           <motion.div className="flex w-full justify-center">
             <Badge
               text="Pricing Plans"
-              className="rounded-full border border-[#451A03] bg-gradient-to-t from-[#451a0300] to-[#451a0399] text-[#F59E0B]"
+              className="rounded-full border border-[#022C22] bg-gradient-to-t from-[#23fa4a49] to-[#022c2200] text-[#23FA4B]"
             />
           </motion.div>
           <motion.h2 className=" text-xl font-semibold tracking-[0.00625rem] text-[#ECEEED] lg:text-5xl lg:tracking-[0.015rem]">

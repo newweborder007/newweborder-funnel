@@ -83,7 +83,7 @@ const OnBoardingProcess = ({ data }: { data: TDictionary }) => {
           <motion.div className="flex w-full justify-center">
             <Badge
               text="Our Process"
-              className="rounded-full border border-[#3B0764] bg-gradient-to-t from-[#3b076499] to-[#3b076400] text-[#A855F7]"
+              className="rounded-full border border-[#022C22] bg-gradient-to-t from-[#23fa4a49] to-[#022c2200] text-[#23FA4B]"
             />
           </motion.div>
           <motion.h2 className="font-orbitron text-xl font-semibold tracking-[0.00625rem] text-[#ECEEED] lg:text-5xl lg:tracking-[0.015rem]">

@@ -52,11 +52,11 @@ const WelcomeBanner = ({ data }: { data: TDictionary }) => {
             className="mx-auto flex flex-col items-center gap-4 px-2 lg:max-w-[48rem] lg:px-0"
             variants={item}
           >
-            <h1 className=" font-orbitron text-2xl font-semibold !leading-tight tracking-[0.0075rem] text-[#ECEEED] lg:text-5xl lg:tracking-[0.015rem]">
+            <h1 className=" font-orbitron text-2xl font-semibold !leading-tight tracking-[0.0075rem] text-[#ECEEED] lg:text-5xl lg:tracking-[0.005rem]">
               <span className="font-orbitron">
                 {data.heroSection.heading[0]}
               </span>
-              <span className=" font-orbitron text-[#23FA4B]">
+              <span className=" font-orbitron text-[#23FA4B] lg:tracking-[0.015rem]">
                 {data.heroSection.heading[1]}
               </span>
             </h1>

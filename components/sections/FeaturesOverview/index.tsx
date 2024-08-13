@@ -57,7 +57,7 @@ const FeaturesOverview = ({ data }: { data: TDictionary }) => {
         <div className="flex w-full justify-center">
           <Badge
             text="Solutions"
-            className="rounded-full border border-[#022C22] bg-gradient-to-t from-[#022c2299] to-[#022c2200] text-[#10B981]"
+            className="rounded-full border border-[#022C22] bg-gradient-to-t from-[#23fa4a49] to-[#022c2200] text-[#23FA4B]"
           />
         </div>
         <h2 className=" mx-auto max-w-[44rem] text-2xl font-semibold tracking-[0.00625rem] text-[#ECEEED] lg:text-5xl lg:tracking-[0.015rem]">
