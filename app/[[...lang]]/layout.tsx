@@ -7,6 +7,7 @@ import Footer from "@/components/widgets/Footer";
 import { getDictionary } from "./dictionaries";
 import { TLocale } from "@/middleware";
 import Script from "next/script";
+import { url } from "inspector";
 
 export const dynamic = "force-dynamic";
 
@@ -169,6 +170,8 @@ export const metadata = {
     TileColor: "#F53838",
     TileImage: "/favicon/ms-icon-144x144.png",
   },
+  url: "https://www.newweborder.co",
+  alternateName: "NWO",
 };
 
 export const viewport = {

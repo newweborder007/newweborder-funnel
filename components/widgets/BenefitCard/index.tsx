@@ -22,7 +22,6 @@ const BenefitCard: React.FC<BenefitCardProps> = ({
   iconCont,
   iconSize,
   textAlignment,
-  className,
 }) => {
   const flexDirection =
     layout === "column" ? "flex-col" : "flex-col lg:flex-row";

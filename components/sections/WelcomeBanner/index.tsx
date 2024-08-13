@@ -32,8 +32,6 @@ const WelcomeBanner = ({ data }: { data: TDictionary }) => {
     },
   };
 
-  const [isVideoLoaded, setIsVideoLoaded] = useState(false);
-
   const loadingSkeletonStyle = {
     backgroundColor: "#0B161A",
     height: "100%", // Adjust the height as needed
@@ -59,8 +57,7 @@ const WelcomeBanner = ({ data }: { data: TDictionary }) => {
                 {data.heroSection.heading[0]}
               </span>
               <span className=" font-orbitron text-[#23FA4B]">
-                {" "}
-                {data.heroSection.heading[1]}{" "}
+                {data.heroSection.heading[1]}
               </span>
             </h1>
             <p className="max-w-screen-sm  font-notoSans text-sm text-[#D1D5DB] lg:text-lg">
@@ -86,7 +83,7 @@ const WelcomeBanner = ({ data }: { data: TDictionary }) => {
                 className="calendly-inline-widget"
                 data-url="https://calendly.com/newweborderhr"
                 style={{
-                  minWidth: "320px",
+                  minWidth: "120px",
                   height: "700px",
                   display: true ? "block" : "none",
                 }}
