@@ -50,7 +50,7 @@ const FeaturesOverview = ({ data }: { data: TDictionary }) => {
       variants={container}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: true, amount: 0.5 }}
+      viewport={{ once: true, amount: 0.2 }}
       id="solutions"
     >
       <motion.div className="flex flex-col gap-3 px-2 lg:px-0" variants={item}>
